@@ -1,0 +1,23 @@
+body{
+	min-height: 100vh !important;
+	min-width: 100vw !important;
+}
+
+.btn.btn-primary{
+	background-color: black;
+	border-color: black;
+}
+.btn.btn-primary:hover{
+	background-color: rgb(61, 61, 61);
+	border-color: rgb(61, 61, 61);
+}
+.btn.btn-primary:focus{
+	background-color: rgb(61, 61, 61);
+	border-color: rgb(61, 61, 61);
+	box-shadow:none;
+}
+
+.form.form-select:focus{
+	box-shadow:none;
+	border-color: black;
+}

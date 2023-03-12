@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JsonPandas2HTML</title>
+	<meta charset="utf-8">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body onload="bodyload()">
+	<div class="m-auto text-center"><h1>JsonPandas2HTML</h1><br><p class="text-muted">Json to table with Python Pandas Data Frame Using jquery</p></div>
+	<hr>
+	<div class="container pt-1">
+		<div class="row">
+		  <div class="col teste col-3">
+			<label for="tables">Select the files:</label><br>
+			<select class="form form-select" id="table_content" onchange="change()">
+				<option selecteds>Select</option>
+			</select><br>
+			<label for="tables">Select the tables:</label><br>
+			<select class="form form-select" id="tables" multiple>
+				
+			</select><br>
+			<button class="form btn btn-primary" id="submit">Generate table</button>
+			
+		  </div>
+		  <div class="col" style="max-height: 300px; overflow-y: scroll;">
+			<div class="table-div m-auto" id="table-container" ></div>
+		  </div>
+		</div>
+		<div class="row pt-3">
+			<div class="col">
+				<hr><h5>Code:</h5>
+				<textarea class="form form-control" id="code" rows="9" disabled></textarea>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

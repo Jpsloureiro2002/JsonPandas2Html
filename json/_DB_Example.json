@@ -1,0 +1,17 @@
+{
+	"Users":{
+		"User":["Jpsloureiro"],
+		"Name":["João"],
+		"Email":["joaoloureiro2002@hotmail.com"],
+		"Password":["nope_never"]
+	},
+	"Music":{
+		"FavSongs":["Radioactive","XO", "Get You the Moon"],
+		"FavTypes":["Pop","ChillHop","Lo-Fi"],
+		"FavArtist":["Imagine Dragons","Eden","Avicii"]
+	},
+	"Hobby":{
+		"Type":["Bike","Guitar","Swimming","Piano"],
+		"Level of Love":[10,7,9,7]
+	}
+}
