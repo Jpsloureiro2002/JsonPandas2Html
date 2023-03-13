@@ -5,7 +5,7 @@ The code retrieves data from JSON files and displays a dropdown menu to select t
 Upon selection, the code loads the JSON file and creates a table based on the selected data. 
 
 
-This code goes along with my other progect, if you want to see it click [here](https://github.com/Jpsloureiro2002/Json-DB)
+This code goes along with my other project, if you want to see it click [here](https://github.com/Jpsloureiro2002/Json-DB)
 
 # How i can use this?
 
